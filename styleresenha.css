@@ -1,0 +1,20 @@
+body{
+    background-image: url(teamo2.png);
+    background-size: 90px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.teamoimg {
+  animation: fadeIn 1s ease-in;
+  margin: 10px; 
+}
+img {
+  border: 15px solid black;
+}
